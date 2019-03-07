@@ -1,4 +1,4 @@
-## Slides da Aula 01 de Soluções WEB - Eng. Comp SATC
+## Slides da Aula 02 de Soluções WEB - Eng. Comp SATC
 
 ## Instalação
 
