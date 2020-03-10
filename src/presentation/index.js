@@ -415,15 +415,6 @@ export default class Presentation extends React.Component {
           "É, basicamente, um contrato para comunicação entre clientes e servidor. São pequenas regras para deixar um componente o mais genérico possível, o tornando muito mais fácil de ser refatorado e melhorado.",
         ])}
         {this.renderSlideTitulo("DEMO TIME!")}
-        <Slide bgImage={images.bg} bgPosition="top left">
-          <HeadingTitle textAlign="center" size={6} margin="0 auto 26px">
-            Projeto
-          </HeadingTitle>
-          <Text textAlign="center" textSize={21} margin="28px auto 12px">
-            Um membro da equipe deve enviar um e-mail para <strong>lucas.ferreira@satc.edu.br</strong> listando o nome
-            dos membros e um breve resumo do tema (caso já tenha um).
-          </Text>
-        </Slide>
       </Deck>
     );
   }
