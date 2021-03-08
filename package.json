@@ -2,10 +2,12 @@
   "name": "slides-sw-aula-02",
   "description": "Slides das Aulas de Soluções WEB do Curso de Eng. da Comp. SATC",
   "author": "Lucas Ferreira <lucas.ferreira@satc.edu.br> (http://www.satc.edu.br)",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "spectacle-code-slide": "^0.5.2",
@@ -14,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "api": "node src/api/app.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

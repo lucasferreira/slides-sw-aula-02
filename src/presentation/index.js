@@ -135,7 +135,7 @@ export default class Presentation extends React.Component {
         ])}
         {this.renderSlideTitulo("MAS E OS SITES?")}
         {this.renderSlideTituloLista("Endereços dos sites x DNS", [
-          "Obviamente sabe o endereço IP de cada servidor de cada site",
+          "Obviamente ninguém sabe o endereço IP de cada servidor de cada site",
           "Aí que entra o endereço “www”",
           "Endereços de sites são baseados na tecnologia DNS, que basicamente cria atalhos entre os endereços “www” à endereços IP",
         ])}
