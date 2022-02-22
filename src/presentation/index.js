@@ -47,7 +47,8 @@ export default class Presentation extends React.Component {
           textFont="secondary"
           size={5}
           style={{ position: "absolute", bottom: 90, right: 50 }}
-          textColor="tertiary">
+          textColor="tertiary"
+        >
           Prof. Lucas Ferreira
         </Heading>
       </Slide>
@@ -109,14 +110,15 @@ export default class Presentation extends React.Component {
         ])}
         {this.renderSlideTituloImagem("O Caminho da Internet", images.caminhointernet)}
         {this.renderSlideTituloLista("Backbone", [
-          "Ponto inicial de referência da Internet",
-          "Interliga todos os pontos da rede",
+          "Ponto inicial de referência do funcionamento da Internet",
+          "Backbone significa Espinha Dorsal em inglês",
+          "Responsável por interligar servidores que estão distantes",
           "São pontos-chave das redes que compõem o núcleo das redes de Internet",
-          "Existem poucos backbones espalhados pelo mundo, e estes são os responsáveis por distribuir o acesso mundial a rede",
+          "Existem poucos backbones espalhados pelo mundo, e estes são os responsáveis por distribuir o acesso mundial a rede e se ligar as centrais das operadoras de internet",
         ])}
         {this.renderSlideTituloLista("Provedor de acesso", [
           "→ Backbones → Chegada de sinal aos provedores de acesso",
-          "Empresas que contratam o sinal de backbones para distribuir aos seus usuários",
+          "Empresas que contratam e se ligam ao sinal de backbones para distribuir dados aos seus usuários",
           "Em geral, empresas ligadas ao setor de telecomunicações",
           "(Ex: Embratel, Oi, Vivo, Claro e etc)",
         ])}
